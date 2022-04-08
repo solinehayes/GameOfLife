@@ -10,7 +10,6 @@
 
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
-import {Controls} from './src/Controls/Controls';
 import {Game} from './src/Game/Game';
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
     <SafeAreaView style={styles.sectionContainer}>
       <Text style={[styles.sectionTitle]}>{'Game of Life'}</Text>
       <Game />
-      <Controls play={() => {}} stop={() => {}} />
     </SafeAreaView>
   );
 };
